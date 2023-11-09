@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 9,
+      "title": "eee",
+      "body": "typicode"
+    },
+    {
+      "id": 10,
+      "title": "json-server",
+      "body": "typicode"
+    },
+    {
+      "title": "new post",
+      "body": "new post",
+      "id": 11
+    },
+    {
+      "title": "new post2",
+      "body": "new post2",
+      "id": 12
+    },
+    {
+      "title": "dfdd",
+      "body": "dfdd",
+      "id": 13
+    },
+    {
+      "title": "new post",
+      "body": "d",
+      "id": 14
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

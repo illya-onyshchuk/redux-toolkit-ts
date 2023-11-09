@@ -3,6 +3,7 @@ import './App.css'
 import { useAppDispatch, useAppSelector } from './hooks/redux'; 
 import { fetchUsers } from './store/reducers/ActionCreators';
 import PostContainer from './components/PostContainer';
+import PostContainer2 from './components/PostContainer2';
 
 
 const App = () => {
@@ -18,7 +19,9 @@ const App = () => {
       {/* {isLoading && 'Loading...'}
       {error && <h1>{error}</h1>}
       {JSON.stringify(users, null, 2)} */}
-      <PostContainer/>
+      <div style={{display: 'flex'}}>
+        <PostContainer/>
+      </div>
     </div>
   );
 }
